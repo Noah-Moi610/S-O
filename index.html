@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examén parcial 2, ciber</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Pixelify+Sans&display=swap" 
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Orbitron:wght@600&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="#">Moi</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <!--seccion inicio-->
+        <div class="inicio">
+            <div class="row">
+                <div class="col-lg-12">
+                </div>
+            </div>
+        </div>
+        <!--seccion inicio-->
+        <!--seccion moi-->
+        <section class="section moi py-5">
+          <div class="container">
+            <div class= "row">
+              <div class="col-lg-5">
+                <img src="/S-O/img/risc.png"class="img-fluid img_ini" alt="">
+              </div>
+              <div class="col-lg-7 texto">
+                <h3>Arquitectura Risc</h3>
+                <p class="texto_ini">La arquitectura risc se diseñío en la decada de 1970, se desarrolló con el trabajo conjunto de las universidades de Berkeley y Standford.</p>
+                <p> Buscaban una solución de procesar y ejecutar un múmero reducido de instrucciones y con ello reducir tiempo.Actualmente estos procesadores estám alojados en los hardware llamanos "celulares y tabletas"</p>
+                <p>Algunas de sus caracteristicas son:</p>
+                <ol>
+                  <li>Un mejor rendimiento gracias al número reducido de instrucciones que soporta</li>
+                  <li>Menos consumo de energía y generación de calor.</li>
+                  <li>Debido al tamaño que poseen, ayudan al ensamblaje de componentes adicionales.</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--seccion de tarjetas-->
+        <section class="tarjetas">
+          <div class="conteiner">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="card">
+                  <img src="/S-O/img/pulsador-sencillo_1.png" alt="pulsador sencillo">
+                  <div class="card-body">
+                    <h5 class="card-title">Pulsador sencillo</h5>
+                    <p class="card-text">En este arduino vimos como se programa y como se compone las funciones para presionar un botón y encender un led.</p>
+                    <a href="https://www.tinkercad.com/things/1gMhDVr7rMM-boton-sencillo/editel" class="btn btn-outline.info">link del arduino</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card">
+                  <img src="/S-O/img/semaforo.png" class="card-img-top" alt="semaforo">
+                  <div class="card-body">
+                    <h5 class="card-title">Semáforo</h5>
+                    <p class="card-text">En este arduino se configuró y programó el arduino para funcionar comno un semaforo con una función void loop y delays.</p>
+                    <a href="https://www.tinkercad.com/things/kIk5ubCsKTv-bodacious-hango-jaagub/editel?tenant=circuits" class="btn btn-outline.info">Link del arduino.</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card">
+                  <img src="/S-O/img/enclavamiento_1.png" alt="enclavamiento">
+                  <div class="card-body">
+                    <h5 class="card-title">Enclavamiento</h5>
+                    <p class="card-text">En este arduino programamos un ciclo para que la luz led se vuelva apagar hasta que uno vuelva a oprimir el botón..</p>
+                    <a href="https://www.tinkercad.com/things/1gMhDVr7rMM-boton-sencillo/editel">Link del arduino</a>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </section>
+    </main>
+    <script src="./JS/bootstrap.min.js"></script> 
+    <script src="./JS/jquery-3.7.0.min.js"></script>  
+    <script src="./JS/myscript.js"></script> 
+</body>
+</html>

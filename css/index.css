@@ -1,0 +1,49 @@
+body{
+    background-color: rgba(81, 81, 81, 0.745);
+}
+.navbar-brand{
+    font-size: 3rem;
+    color: rgb(14, 115, 199);
+    font-family: 'Chakra Petch', sans-serif;
+font-family: 'Pixelify Sans', sans-serif;
+}
+.inicio{
+    --opacidad-negro: 0.3;
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("/S-O/img/portada.jpg");
+    background-position: right;
+    background-size: cover;
+    height: 42rem;
+}
+
+.moi{
+    .img_ini{
+        width: 20rem;
+        height: 20rem;
+        border-radius: 50%;
+    }
+    .texto{
+        font-size: 1.2rem;
+        color: rgb(106, 14, 199);
+        font-family: 'Caveat', cursive;
+        font-family: 'Indie Flower', cursive;
+    }
+}
+
+.tarjetas{
+    .card{
+        width:20rem;
+        background-color: rgba(81, 81, 81, 0.745);
+    }
+    .card-title{
+        font-size: 2rem;
+        color: rgb(56, 158, 242);
+        font-family: 'Chakra Petch', sans-serif;
+font-family: 'Pixelify Sans', sans-serif;
+    }
+    .card-text{
+        font-size: 0.9rem;
+        color: rgb(255, 255, 255);
+        font-family: 'Indie Flower', cursive;
+font-family: 'Orbitron', sans-serif;
+    }    
+}
